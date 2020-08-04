@@ -1,16 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>vip.hn1688.springcloud</groupId>
-		<artifactId>microservicecloud</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</parent>
-	<artifactId>microservicecloud-consumer-dept-80</artifactId>
-	<description>部门微服务消费者</description>
-
-	<dependencies>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>vip.hn1688.springcloud</groupId>
+    <artifactId>microservicecloud</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>microservicecloud-consumer-dept-feign</artifactId>
+<dependencies>
 		<dependency>
 			<!-- 自己定义的api -->
 			<groupId>vip.hn1688.springcloud</groupId>
